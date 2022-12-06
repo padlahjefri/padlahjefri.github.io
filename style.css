@@ -1,0 +1,713 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;400;600;700&display=swap");
+
+:root {
+  --color-1: #f4f7f7;
+  --color-2: #aacfd0;
+  --color-3: #79a8a9;
+  --color-4: #1f4e5f;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: var(--color-1);
+}
+
+/* ubah layar hp */
+@media screen and (max-width: 992px) {
+  .row {
+    margin: 0 !important;
+    padding: 0;
+  }
+  .row .col {
+    padding-top: 5px !important;
+    padding-left: 50px !important;
+    width: auto;
+    height: 20px;
+  }
+
+  .col h3 {
+    font-size: 16px !important;
+    font-weight: 400px;
+  }
+
+  .col h4 {
+    font-size: 16px !important;
+    word-spacing: 1em !important;
+    flex-wrap: wrap;
+  }
+
+  .col h6 {
+    font-size: 8px !important;
+    word-spacing: 1.2em !important;
+    padding-top: 0;
+    flex-wrap: wrap;
+  }
+
+  .row .col-sm-1 {
+    position: static;
+    padding-left: 30px !important;
+    width: 120px;
+  }
+
+  .row .col-sm-1 img {
+    position: fixed;
+    left: 0px !important;
+    top: 0px !important;
+    width: 103px !important;
+  }
+  #header .container .row .col img {
+    height: 15px !important;
+    width: auto;
+  }
+
+  /* name */
+
+  #name .col {
+    padding-top: 10px !important;
+    padding-bottom: 20px;
+  }
+
+  #name .col h1 {
+    font-size: 20px !important;
+    font-weight: 700;
+  }
+
+  #name .col h5 {
+    font-size: 12px !important;
+  }
+
+  #name .btn-simpen {
+    height: 28px !important;
+    font-size: 16px !important;
+    width: 150px !important;
+  }
+
+  #name .col-tanggal {
+    position: static;
+    padding-left: auto !important;
+    padding-top: 10px !important;
+  }
+
+  #name .btn-tgl {
+    position: fixed;
+    left: 0px !important;
+    height: 60px !important;
+    width: 60px !important;
+    font-size: 20px !important;
+  }
+
+  #name .btn-bln {
+    position: fixed;
+    left: 0px !important;
+    height: 60px !important;
+    width: 60px !important;
+    font-size: 20px !important;
+  }
+
+  #name .btn-th {
+    position: fixed;
+    left: 0px !important;
+    height: 60px !important;
+    width: 60px !important;
+    font-size: 20px !important;
+  }
+  #name .col-tanggal h4 {
+    position: fixed;
+    left: 0px !important;
+    font-size: 16px !important;
+  }
+
+  /* foto */
+  #foto .col-nav {
+    position: static;
+    width: 100%;
+    height: 25px !important;
+    padding-bottom: 20px;
+  }
+
+  #foto .col-nav button {
+    position: fixed;
+    left: 0px !important;
+    border: 0 !important;
+    height: 25px !important;
+    width: 40px !important;
+  }
+
+  #foto .col-foto {
+    width: 100%;
+    padding-top: 1px;
+  }
+
+  #foto .card img {
+    width: 110px !important;
+    height: 110px !important;
+  }
+
+  #acara .col-sm-6 {
+    height: 100%;
+    width: 100% !important;
+  }
+
+  #foto .row-foto .col-foto .col-sm-12 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #acara .col-sm-6 {
+    justify-content: center !important;
+    margin: 0 10px 0 10px !important;
+  }
+
+  #acara .card .resepsi {
+    font-size: 18px !important;
+    font-weight: 600;
+  }
+
+  #acara .card .jam {
+    font-size: 14px !important;
+  }
+
+  #acara .card .alamat {
+    font-size: 14px !important;
+    line-height: 1.5;
+  }
+
+  /* end foto */
+  /* ucapan */
+  #ucapan {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  #ucapan .container h4 {
+    font-size: 18px;
+  }
+
+  #ucapan .row {
+    padding: 5px 0 20px 0 !important;
+    width: 73% !important;
+    margin: 0 50px !important;
+  }
+
+  #ucapan .container input {
+    font-size: 14px;
+  }
+  #ucapan .container textarea {
+    font-size: 14px;
+  }
+
+  /* end ucapan */
+  /* rek */
+  #rek .col .card img {
+    width: 60%;
+  }
+
+  #rek .row .col .card {
+    width: 90%;
+    background-color: var(--color-2);
+    right: 7px;
+    bottom: 20px;
+    margin-left: 15px;
+  }
+
+  #rek .row .col {
+    width: 100%;
+    padding-bottom: 105px;
+    right: 10px;
+  }
+
+  #rek .container .row {
+    width: 100%;
+    padding-bottom: 70px;
+  }
+
+  #rek .container h4 {
+    padding-bottom: -20px;
+    font-size: 18px;
+  }
+
+  #rek .container h6 {
+    font-size: 12px !important;
+  }
+
+  /* end */
+  /* footer */
+  .footer .container h6 {
+    font-size: 12px;
+  }
+
+  .footer .container h3 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .footer .container {
+    padding-bottom: -50px !important;
+  }
+  /* end */
+
+  /* cover */
+
+  #cover {
+    width: 100%;
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+  }
+  #cover .container {
+    background-size: 60vmax !important;
+    margin: auto;
+    position: relative;
+    background-color: var(--color-2);
+    background-position: top center !important;
+    width: auto;
+    height: auto;
+    background: transparent;
+  }
+  #cover .row-cover {
+    width: 300px !important;
+    padding-top: 110px;
+    margin: auto !important;
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+  }
+
+  #cover .row-cover .col {
+    height: auto;
+  }
+
+  #cover .row-cover .col h3 {
+    font-size: 24px !important;
+    font-weight: 600;
+  }
+
+  #cover .row-cover .col h5 {
+    font-size: 16px;
+  }
+
+  #cover .row-cover .col p {
+    font-size: 12px;
+  }
+
+  #cover .row-cover .btn-buka {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+/* end hp ----------------------------------------------------------------------------------*/
+
+/*  */
+/* header */
+
+#menu .navbar {
+  background-color: var(--color-3);
+  width: 100%;
+  height: 50px;
+}
+
+#header {
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: var(--color-1);
+  width: 100%;
+  height: auto;
+}
+
+.row .col {
+  position: relative;
+  margin-top: 30px !important;
+  width: 100%;
+}
+
+.row .col-sm-1 {
+  padding-top: 30px;
+  padding-left: 100px;
+}
+
+.row .col-sm-1 img {
+  position: relative;
+  top: 20px;
+  left: 55px;
+  width: 250px;
+}
+
+.col h3 {
+  color: var(--color-4);
+  font-size: 20px;
+  font-weight: 600px;
+  position: relative;
+  right: 2px;
+}
+
+.col h4 {
+  color: var(--color-4);
+  font-size: 32px;
+  font-weight: 600;
+  word-spacing: 1em;
+  flex-wrap: wrap;
+}
+
+.col h6 {
+  color: var(--color-4);
+  font-size: 12px;
+  word-spacing: 3em;
+  padding-top: 0;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+#header .container .row .col img {
+  height: 20px;
+  width: auto;
+}
+
+/* end header */
+/* name */
+#name .row {
+  width: 100%;
+  padding: 5px;
+}
+#name .col {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#name .col h1 {
+  color: var(--color-4);
+  font-weight: 700;
+}
+
+#name .col h5 {
+  color: var(--color-4);
+  padding-bottom: 5px;
+}
+
+#name .btn-simpen {
+  height: 32px;
+  width: 200px;
+  border: 1px solid var(--color-3);
+  border-radius: 5px;
+  color: var(--color-4);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#name .btn-save {
+  height: 32px;
+  width: 200%;
+  border-radius: 5px;
+  border: 1px solid var(--color-3);
+  text-decoration: none;
+  color: var(--color-4);
+}
+
+#name .col-tanggal {
+  position: static;
+  padding-left: auto;
+  padding-top: 20px;
+  width: 100%;
+}
+
+#name .btn-tgl {
+  position: relative;
+  left: 60px;
+  border: 0;
+  border-radius: 100%;
+  background-color: var(--color-4);
+  color: var(--color-1);
+  height: 100px;
+  width: 100px;
+  font-size: 32px;
+}
+
+#name .btn-bln {
+  position: relative;
+  left: 60px;
+  border: 0;
+  border-radius: 100%;
+  background-color: var(--color-4);
+  color: var(--color-1);
+  height: 100px;
+  width: 100px;
+  font-size: 32px;
+}
+
+#name .btn-th {
+  position: relative;
+  left: 60px;
+  border: 0;
+  border-radius: 100%;
+  background-color: var(--color-4);
+  color: var(--color-1);
+  height: 100px;
+  width: 100px;
+  font-size: 32px;
+}
+
+#name .col-tanggal h4 {
+  position: relative;
+  left: 60px;
+  color: var(--color-4);
+}
+/* end name */
+
+/* foto */
+#foto .col-nav {
+  position: static;
+  background: rgb(31, 78, 95);
+  background: linear-gradient(0deg, rgba(31, 78, 95, 1) 1%, rgba(244, 247, 247, 1) 3%, rgba(244, 247, 247, 1) 23%);
+  width: 100%;
+  height: 50px;
+}
+
+#foto .col-nav button {
+  position: relative;
+  background-color: var(--color-3);
+  left: 60px;
+  border: 0;
+  height: 49px;
+  width: 80px;
+}
+
+#foto .col-foto {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-top: 5px;
+}
+
+#foto .card img {
+  width: 270px;
+  height: 270px;
+}
+
+#foto .operlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: 0.5s;
+  text-align: center;
+  padding: 50px;
+}
+
+#foto .operlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#foto .operlay img {
+  max-height: 100%;
+}
+
+.operlay .btn-close {
+  color: var(--color-1);
+}
+
+/* end foto */
+
+/* Acara*/
+
+#acara .row {
+  margin: 0px;
+  padding: 10px 10px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: var(--color-4);
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-1) !important;
+}
+
+#acara .col-sm-6 {
+  margin: 0;
+  padding: 10px 20px 10px 40px !important;
+}
+
+#acara .card {
+  background-color: #fff;
+  height: 230px;
+  width: 95%;
+  padding-top: 20px;
+  align-items: center;
+}
+
+#acara .card .resepsi {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  color: var(--color-4);
+}
+
+#acara .card .jam {
+  font-size: 16px;
+  color: var(--color-4);
+}
+
+#acara .btn-maps {
+  height: 24px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid var(--color-3);
+  text-decoration: none;
+  color: var(--color-4);
+}
+
+/* end acara */
+
+/* ucapan */
+#ucapan {
+  justify-content: center;
+}
+
+#ucapan .row {
+  padding: 10px 0px 10px 0px;
+  justify-content: center;
+  background-color: var(--color-2);
+  width: 60%;
+  margin: 20px 200px;
+}
+
+#ucapan .row h4 {
+  font-weight: 600;
+  color: var(--color-4);
+}
+
+#ucapan .btn-ucapan {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--color-3);
+  color: var(--color-4);
+}
+/* end ucapan */
+
+/* rekening */
+
+#rek .row {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+#rek .col {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#rek .col .card {
+  background-color: var(--color-2);
+  width: 100%;
+  margin-left: 20px;
+  align-items: center;
+}
+
+#rek .card img {
+  width: 350px;
+}
+
+#rek .container h4 {
+  color: var(--color-4);
+  font-weight: 600;
+  padding-top: 5x;
+  padding-bottom: 0px;
+}
+
+#rek .container h6 {
+  color: var(--color-4);
+  font-size: 16px;
+}
+
+/* end */
+
+/* footer */
+.footer .container {
+  background-color: var(--color-1);
+  width: 100%;
+  height: 30px;
+  padding-bottom: 150px;
+  color: var(--color-4);
+}
+/* end */
+
+/* Cover */
+
+#cover {
+  height: 100vh;
+  width: 100%;
+  background-image: url("asset/image/cover.jpg");
+  background-position: center;
+}
+
+#cover .container {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: unset;
+  background: transparent;
+  position: relative;
+}
+
+#cover .row-cover {
+  width: 50%;
+  height: 50%;
+  left: 26%;
+  top: 26%;
+  position: absolute;
+  fill-opacity: 0.2px;
+}
+
+#cover .row-cover .col {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(130, 191, 209, 0.7);
+  padding-top: 30px;
+  border-radius: 10px;
+}
+
+#cover .col h3 {
+  color: var(--color-4);
+  font-weight: 500;
+  font-size: 32px;
+}
+
+#cover .col h5 {
+  color: var(--color-4);
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+#cover .col p {
+  color: var(--color-4);
+  font-size: 14px;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+#cover .btn-buka {
+  height: 32px;
+  width: 200px;
+  border: 1px solid var(--color-3);
+  border-radius: 5px;
+  color: var(--color-4);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* end cover */
